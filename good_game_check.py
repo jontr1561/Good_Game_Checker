@@ -2,9 +2,9 @@ import requests
 import datetime
 
 
-api_key = "bdb054a4-467d-467b-b5a1-b2f3a0d834aa"
+api_key = # your api
 base_url = "https://api.balldontlie.io/v1"
-headers = {"Authorization": "bdb054a4-467d-467b-b5a1-b2f3a0d834aa"}
+headers = {"Authorization": #your api}
 
 url = f"{base_url}/games"
 
@@ -113,5 +113,6 @@ if __name__ == '__main__':
     }
     response = requests.get(url, headers=headers, params=params)
     game_checker()
+
 
 
